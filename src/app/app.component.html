@@ -1,0 +1,45 @@
+<app-header></app-header>
+<!-- <app-products></app-products>
+
+<div class="text-center">
+<button class="btn btn-primary " style="width:20%" (click)="getProducts()">show products</button>
+</div>
+<div *ngIf="isclicked; then hideTable; else showmessage"></div>
+
+<ng-template #hideTable>
+<table class="table table-sm"  >
+    <thead>
+      <tr class="bg-warning">
+
+        <th scope="col">Name</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Price</th>
+        <th scope="col">Image</th>
+        <th scope="col">Purshased</th>
+
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of productlist ">
+
+
+        <td>{{product.Name}}</td>
+        <td>{{product.Quantity}}</td>
+        <td>{{product.Price}}</td>
+        <td><img [src]="product.Image" width="50"></td>
+        </tr>
+
+    </tbody>
+  </table>
+</ng-template>
+
+<ng-template #showmessage>
+
+</ng-template> -->
+
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>
+
+
